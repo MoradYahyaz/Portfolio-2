@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* set custom properties */
+
+:root {
+  /* font family */
+  --ff-primary: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  --ff-secondary: "Source Sans Pro", sans-serif;
+  /* font weight regular */
+  --fw-reg: 300;
+  /* font weight bold */
+  --fw-bold: 900;
+
+  /* linear-gradient =>  unfortunlly it does not work with pseudo root */
+  /* --colorful: linear-gradient(green 30%, red 70%, black 20%);  */
+
+  /*   color of background 
+  --clr-bg: #fff */
+
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent: #16e0bd;
+  /* font size */
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.2rem;
+  --fs-body: 1rem;
+}
+
+body {
+  font-family: sans-serif;
+}
